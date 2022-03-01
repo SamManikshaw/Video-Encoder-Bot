@@ -6,5 +6,5 @@ RUN apt -qq update && apt -qq install -y git wget pv jq python3-dev ffmpeg media
 RUN apt-get install neofetch wget -y -f
 
 COPY . .
-RUN pip3 install -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 CMD ["bash","run.sh"]
