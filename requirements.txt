@@ -3,3 +3,5 @@ TgCrypto
 python-dotenv
 hachoir
 ffmpeg-python
+gunicorn
+Flask
